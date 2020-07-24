@@ -7,10 +7,14 @@ Instale o Vagrant, na versão 2.x: link
 
  1.Crie uma pasta para os projetos e execute os comando do Vagrant. <br>
   Na linha de comando, crie o Vagrantfile, com o comando: <br>
-  vagrant init hashicorp/precise64 <br>
-Suba a máquina virtual:
-vagrant up
-Conecte-se à máquina virtual (ou usando PuTTY):
-vagrant ssh
-Pare a máquina virtual:
-vagrant halt
+  > vagrant init hashicorp/precise64 <br>
+  
+ Suba a máquina virtual: <br>
+> vagrant up <br>
+
+Conecte-se à máquina virtual (ou usando PuTTY): <br>
+> vagrant ssh <br>
+
+Pare a máquina virtual: <br>
+
+> vagrant halt
